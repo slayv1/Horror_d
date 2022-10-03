@@ -1,0 +1,514 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1664791011392151, "dur": 2996524, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664791011392515, "dur": 16463, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664791011408981, "dur": 47664, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664791011456646, "dur": 773807, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664791012230456, "dur": 2152382, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664791014382840, "dur": 5835, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664791014389419, "dur": 14, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1664791012000663, "dur": 210090, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664791012002000, "dur": 63056, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664791012187469, "dur": 6460, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664791012193934, "dur": 16801, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664791012195320, "dur": 13930, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664791012217474, "dur": 1746, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664791012216324, "dur": 2930, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664791014391003, "dur": 485, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1664791012278473, "dur":2126, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664791012280612, "dur":62, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1664791012280686, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1664791012280709, "dur":284, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1664791012281045, "dur":843, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664791012281888, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664791014354896, "dur":134, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664791014355030, "dur":30, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664791014355060, "dur":41, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664791014355101, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664791014355121, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664791014355125, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664791014355136, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664791014355140, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664791014355151, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664791014355174, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664791014355239, "dur":2655, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1664791012281747, "dur":179, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791012281926, "dur":7079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791012289005, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1664791012289176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791012294263, "dur":6483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1664791012300803, "dur":11852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1664791012312663, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791012312673, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1664791012313676, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1664791012313797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791012314348, "dur":2210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1664791012316618, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1664791012316736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791012316802, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1664791012318875, "dur":7630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1664791012326512, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791012326524, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1664791012327944, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1664791012328070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791012329060, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1664791012331024, "dur":49623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1664791012380654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791012380785, "dur":991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1664791012381827, "dur":9696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1664791012391528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791012391537, "dur":875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1664791012392463, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1664791012392576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791012392605, "dur":7910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1664791012400573, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1664791012400686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791012400695, "dur":4669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1664791012405422, "dur":36838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791012442268, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791012442819, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791012444536, "dur":127938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791012572482, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791012572618, "dur":5751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791012578424, "dur":44415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo.exe" }}
+,{ "pid":12345, "tid":1, "ts":1664791012622846, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791012622855, "dur":1752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo.exe" }}
+,{ "pid":12345, "tid":1, "ts":1664791012624753, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1664791012625031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791012625327, "dur":60988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1664791012686373, "dur":35591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791012721972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791012722109, "dur":1789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791012723947, "dur":35847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791012759798, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791012759807, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791012761030, "dur":28223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791012789261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791012789271, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791012790332, "dur":29007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791012819347, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791012819358, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791012820465, "dur":27748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791012848221, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791012848232, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791012849517, "dur":58494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791012908019, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791012908029, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791012909146, "dur":135060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013044213, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791013044248, "dur":1817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013046115, "dur":33176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013079298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791013079311, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013080694, "dur":17926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013098629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791013098639, "dur":1623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013100315, "dur":37407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013137730, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791013137741, "dur":1442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013139234, "dur":18987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013158229, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791013158240, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013159309, "dur":31624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013190940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791013190951, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013192069, "dur":40008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013232084, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791013232095, "dur":1079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013233222, "dur":20119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013253349, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791013253360, "dur":1915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013255326, "dur":24692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013280024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791013280034, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013281053, "dur":36827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013317887, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791013317898, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013318951, "dur":18590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013337549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791013337560, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013338740, "dur":98838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013437586, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791013437597, "dur":1069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013438713, "dur":57205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013495925, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791013495936, "dur":1468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013497454, "dur":28864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013526326, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791013526336, "dur":1023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013527404, "dur":1733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013529144, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791013529154, "dur":1717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013530922, "dur":15776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013546706, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791013546717, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013547794, "dur":18236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013566037, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791013566047, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013567065, "dur":31695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013598767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791013598778, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013600059, "dur":190294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013790361, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791013790371, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013791637, "dur":73572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013865217, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791013865227, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013866687, "dur":25924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013892618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791013892629, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791013893900, "dur":152488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791014046395, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791014046405, "dur":4248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791014050707, "dur":84572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791014135287, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791014135297, "dur":2506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791014137853, "dur":155040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791014292900, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664791014292910, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664791014294240, "dur":60657, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791012281645, "dur":250, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791012281898, "dur":7072, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791012288997, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1664791012289001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791012290592, "dur":694, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1664791012291291, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1664791012291352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791012291534, "dur":11073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1664791012302611, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1664791012302763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791012302783, "dur":191423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1664791012494274, "dur":286741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791012781022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791012781031, "dur":21021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791012802102, "dur":41318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791012843426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791012843436, "dur":1190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791012844675, "dur":68404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791012913085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791012913095, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791012914117, "dur":26510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791012940635, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791012940646, "dur":982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791012941676, "dur":32322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791012974006, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791012974016, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791012975036, "dur":76719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013051763, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791013051774, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013053226, "dur":19786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013073020, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791013073031, "dur":2318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013075399, "dur":34435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013109842, "dur":178, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791013110030, "dur":5741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013115822, "dur":17148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013132978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791013132988, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013134091, "dur":28901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013162999, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791013163010, "dur":1006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013164065, "dur":33249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013197321, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791013197332, "dur":2590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013199972, "dur":21982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013221987, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791013221997, "dur":12338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013234388, "dur":28627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013263023, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791013263033, "dur":1878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013264961, "dur":88417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013353386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791013353396, "dur":1649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013355095, "dur":24638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013379741, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791013379751, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013381236, "dur":66403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013447647, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791013447658, "dur":1296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013449001, "dur":192669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013641677, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791013641687, "dur":1665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013643404, "dur":184303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013827714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791013827725, "dur":3386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013831163, "dur":62017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013893184, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791013893192, "dur":4644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791013897887, "dur":137137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791014035030, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791014035040, "dur":2734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791014037825, "dur":88413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791014126246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791014126257, "dur":1840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791014128157, "dur":223113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791014351278, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664791014351288, "dur":3522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664791014354858, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1664791014354862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791012281726, "dur":186, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791012281913, "dur":7274, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791012289188, "dur":8562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1664791012297758, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791012298022, "dur":2426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1664791012300498, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1664791012300612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791012300621, "dur":14505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1664791012315181, "dur":65466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1664791012380654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791012380666, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1664791012381706, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1664791012381823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791012381832, "dur":8380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1664791012390266, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1664791012390384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791012390394, "dur":314360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1664791012704809, "dur":31908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791012736725, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791012736736, "dur":1875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791012738678, "dur":31411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791012770097, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791012770107, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791012771711, "dur":85999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791012857718, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791012857729, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791012858975, "dur":18141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791012877124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791012877134, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791012878270, "dur":31752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791012910027, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791012910036, "dur":1043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791012911138, "dur":107199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013018346, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791013018357, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013019494, "dur":39712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013059213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791013059223, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013060366, "dur":22448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013082819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791013082826, "dur":6223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013089096, "dur":21649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013110750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791013110757, "dur":6601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013117406, "dur":47837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013165249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791013165398, "dur":1993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013167442, "dur":87578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013255027, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791013255037, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013256172, "dur":20602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013276801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791013276811, "dur":1675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013278533, "dur":18315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013296856, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791013296867, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013297937, "dur":36835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013334780, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791013334790, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013335914, "dur":37381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013373303, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791013373313, "dur":2110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013375470, "dur":86879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013462353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791013462362, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013463578, "dur":20643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013484229, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791013484240, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013485241, "dur":27231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013512480, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791013512490, "dur":1227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013513765, "dur":18040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013531810, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791013531820, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013532793, "dur":18959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013551760, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791013551770, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013552781, "dur":24914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013577702, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791013577737, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013578897, "dur":58264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013637169, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791013637180, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013638270, "dur":74001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013712279, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791013712290, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013713593, "dur":116591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013830192, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791013830203, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013831656, "dur":24533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013856197, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791013856208, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013857284, "dur":79861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013937153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791013937191, "dur":1274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791013938518, "dur":63997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791014002523, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791014002533, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791014004020, "dur":107557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791014111585, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791014111595, "dur":2044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791014113757, "dur":40828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791014154592, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791014154603, "dur":1279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664791014155927, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1664791014156089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791014156425, "dur":4216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1664791014160692, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1664791014160744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791014160796, "dur":1781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1664791014162762, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1664791014162820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791014162827, "dur":2008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1664791014164888, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1664791014165024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791014165032, "dur":868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1664791014165945, "dur":5067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1664791014171016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791014171022, "dur":1234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1664791014172305, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1664791014172356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791014172362, "dur":1700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1664791014174113, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1664791014174162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791014174169, "dur":1229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1664791014175446, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1664791014175495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791014175502, "dur":1142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1664791014176691, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1664791014176743, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791014176749, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1664791014178112, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1664791014178167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664791014178173, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1664791014180014, "dur":174888, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791012281798, "dur":138, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791012281937, "dur":7066, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791012289004, "dur":28865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1664791012317875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791012318141, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1664791012318990, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1664791012319116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791012319124, "dur":192588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1664791012511963, "dur":117670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1664791012629665, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791012629674, "dur":2232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1664791012631958, "dur":64222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791012696188, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791012699566, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791012701070, "dur":20913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791012721987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791012722099, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791012723869, "dur":34400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791012758301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791012758312, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791012759777, "dur":62904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791012822713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791012822724, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791012824077, "dur":17131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791012841216, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791012841226, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791012842660, "dur":61819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791012904487, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791012904498, "dur":1190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791012905742, "dur":36509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791012942255, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791012942264, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791012943209, "dur":33467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791012976682, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791012976692, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791012978162, "dur":32719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013010889, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013010900, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013012426, "dur":17531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013029965, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013029975, "dur":1845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013031873, "dur":31121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013063002, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013063012, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013064378, "dur":17828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013082235, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013082246, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013084001, "dur":17156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013101164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013101174, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013102400, "dur":42827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013145234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013145245, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013146434, "dur":25931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013172372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013172383, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013173632, "dur":20902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013194541, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013194551, "dur":1029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013195629, "dur":21745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013217382, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013217392, "dur":1061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013218502, "dur":56058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013274568, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013274579, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013275757, "dur":34025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013309789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013309800, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013311407, "dur":32045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013343460, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013343471, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013345068, "dur":29095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013374168, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013374176, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013375224, "dur":39171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013414403, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013414414, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013415488, "dur":45052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013460547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013460558, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013462018, "dur":15275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013477301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013477311, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013478460, "dur":37621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013516089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013516099, "dur":1029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013517176, "dur":45682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013562865, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013562876, "dur":1570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013564495, "dur":15852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013580353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013580363, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013581451, "dur":23664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013605122, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013605132, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013606168, "dur":36323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013642495, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013642503, "dur":2555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013645108, "dur":46399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013691515, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013691525, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013692798, "dur":86843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013779649, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013779659, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013781236, "dur":109817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013891061, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791013891071, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791013892868, "dur":138644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791014031519, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791014031529, "dur":1400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791014033036, "dur":109593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791014142636, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791014142646, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791014144015, "dur":26926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791014170956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791014170967, "dur":6754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664791014177770, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1664791014177825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791014177831, "dur":1446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1664791014179327, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1664791014179459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664791014179466, "dur":809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Slava/Documents/Unity Project/BuildProject/Horror_demo_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1664791014180317, "dur":174576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664791014360028, "dur":2551, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1664791014391566, "dur": 1004, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664791014389398, "dur": 3195, "ph": "X", "name": "Write chrome-trace events", "args": {} },

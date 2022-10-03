@@ -36,9 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Arm.cs" />
+     <Compile Include="Assets\Enemis\Enemy.cs" />
      <Compile Include="Assets\Player\Script\PlayerMov.cs" />
      <Compile Include="Assets\Player\Script\MouseLook.cs" />
-     <Compile Include="Assets\Scripts\Arm.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
